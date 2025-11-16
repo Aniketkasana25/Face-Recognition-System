@@ -1,0 +1,7 @@
+{
+  "name": "Corporate Face Recognition System",
+  "description": "A secure corporate website that uses facial recognition to identify and verify employee information. This application demonstrates a frontend implementation with mock data.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

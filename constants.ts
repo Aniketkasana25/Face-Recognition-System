@@ -1,0 +1,68 @@
+import { type Employee } from './types';
+
+export const EMPLOYEES: Employee[] = [
+  {
+    id: 'EMP-001',
+    name: 'Dr. Evelyn Reed',
+    position: 'Lead Scientist',
+    department: 'Research & Development',
+    accessLevel: 5,
+    imageUrl: 'https://picsum.photos/seed/evelyn/400/400',
+  },
+  {
+    id: 'EMP-002',
+    name: 'Marcus Thorne',
+    position: 'Chief Security Officer',
+    department: 'Security',
+    accessLevel: 5,
+    imageUrl: 'https://picsum.photos/seed/marcus/400/400',
+  },
+  {
+    id: 'EMP-003',
+    name: 'Jasmine Kaur',
+    position: 'Software Engineer',
+    department: 'Technology',
+    accessLevel: 4,
+    imageUrl: 'https://picsum.photos/seed/jasmine/400/400',
+  },
+  {
+    id: 'EMP-004',
+    name: 'Leo Chen',
+    position: 'Data Analyst',
+    department: 'Analytics',
+    accessLevel: 3,
+    imageUrl: 'https://picsum.photos/seed/leo/400/400',
+  },
+  {
+    id: 'EMP-005',
+    name: 'Sofia Rossi',
+    position: 'Project Manager',
+    department: 'Operations',
+    accessLevel: 4,
+    imageUrl: 'https://picsum.photos/seed/sofia/400/400',
+  },
+  {
+    id: 'EMP-006',
+    name: 'Aryan Kumar',
+    position: 'Frontend Developer',
+    department: 'Technology',
+    accessLevel: 3,
+    imageUrl: 'https://storage.googleapis.com/garden-prod/b9d373c0-0382-4148-b48e-f633391d1e78_image.jpeg',
+  },
+  {
+    id: 'EMP-007',
+    name: 'John Doe',
+    position: 'Intern',
+    department: 'Operations',
+    accessLevel: 1,
+    imageUrl: 'https://picsum.photos/seed/john/400/400',
+  },
+  {
+    id: 'EMP-008',
+    name: 'Jane Smith',
+    position: 'HR Specialist',
+    department: 'Human Resources',
+    accessLevel: 3,
+    imageUrl: 'https://picsum.photos/seed/jane/400/400',
+  },
+];
